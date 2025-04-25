@@ -1,0 +1,28 @@
+# Node.js / Svelte
+node_modules/
+dist/
+dist-ssr/
+.svelte-kit/
+build/
+.env
+.env.*
+
+# Rust / Tauri
+target/
+Cargo.lock
+**/*.rs.bk
+.cargo/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# SQLite database
+*.db 
